@@ -1,0 +1,5 @@
+name: var_finetuning
+device: cuda
+epochs: 50
+checkpoint: 5
+augmentation_multiplicity_k: 4

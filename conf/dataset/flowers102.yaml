@@ -1,0 +1,7 @@
+name: flowers102
+dataset_path: out/data/processed/flowers102
+hf_path: dpdl-benchmark/oxford_flowers102
+num_classes: 102
+split: train
+image_col: image
+label_col: label

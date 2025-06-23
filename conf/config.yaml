@@ -1,0 +1,11 @@
+cfg:
+  path_to_models: out/models
+  reference_sample_path: out/generations/ref_sample
+  generated_sample_path: out/generations/gen_sample
+  path_to_scores: out/scores/
+  path_to_metrics: out/metrics/
+  seed: 0
+  run_id: vars_ft
+  dataloader_num_workers: 2
+wandb:
+  project: "DP-VARS"

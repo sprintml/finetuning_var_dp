@@ -1,0 +1,7 @@
+name: food101
+dataset_path: out/data/processed/food101
+hf_path: ethz/food101
+num_classes: 101
+split: train
+image_col: image
+label_col: label

@@ -1,0 +1,11 @@
+name: dp-eps-100
+device: cuda
+
+accountant: rdp
+max_grad_norm: 0.1
+target_epsilon: 100.0
+poisson_sampling: true
+q: 0.01
+epochs: 100
+checkpoint: 20
+augmentation_multiplicity_k: 4

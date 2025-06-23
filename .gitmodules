@@ -1,0 +1,7 @@
+[submodule "submodules/VAR"]
+	path = submodules/VAR
+	url = https://github.com/FoundationVision/VAR.git
+[submodule "submodules/guided-diffusion"]
+	path = submodules/guided-diffusion
+	url = https://github.com/openai/guided-diffusion.git
+	

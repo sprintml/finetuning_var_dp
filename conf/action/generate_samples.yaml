@@ -1,0 +1,5 @@
+name: generate_samples
+device: cuda
+
+gen_params:
+  dtype: bf16 # [fp16, bf16, fp32]

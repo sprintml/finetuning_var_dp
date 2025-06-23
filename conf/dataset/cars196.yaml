@@ -1,0 +1,7 @@
+name: cars196
+dataset_path: out/data/processed/cars196
+hf_path: tanganke/stanford_cars
+num_classes: 196
+split: train
+image_col: image
+label_col: label

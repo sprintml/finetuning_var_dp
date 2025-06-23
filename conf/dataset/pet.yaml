@@ -1,0 +1,7 @@
+name: pet
+dataset_path: out/data/processed/pet
+hf_path: timm/oxford-iiit-pet
+num_classes: 37
+split: train
+image_col: image
+label_col: label

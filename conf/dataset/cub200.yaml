@@ -1,0 +1,7 @@
+name: cub200
+dataset_path: out/data/processed/cub200
+hf_path: Donghyun99/CUB-200-2011
+num_classes: 200
+split: train
+image_col: image
+label_col: label

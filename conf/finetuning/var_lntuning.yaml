@@ -1,0 +1,9 @@
+name: var_lntuning
+training_params:
+  n_gradient_accumulation: 8
+  opt: adamw # Optimizer choices: ["adam", "adamw"]
+  label_smooth: 0.0
+  lr: 5e-4
+  grad_clip: 0.1
+  weight_decay: 0.05
+  target_modules: ["ada_lin.1"]

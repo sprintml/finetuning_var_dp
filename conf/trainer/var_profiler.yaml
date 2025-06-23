@@ -1,0 +1,4 @@
+name: var_profiler
+device: cuda
+epochs: 1
+checkpoint: 1

@@ -1,0 +1,8 @@
+name: var_fft
+training_params:
+  n_gradient_accumulation: 8
+  opt: adamw # Optimizer choices: ["adam", "adamw"]
+  label_smooth: 0.0
+  lr: 1e-4
+  grad_clip: 1.0
+  weight_decay: 0.05
