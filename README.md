@@ -1,5 +1,11 @@
 # Implementing Adaptations for Vision AutoRegressive Model
 
+<div align="left">
+  <a href="https://openreview.net/forum?id=YsTotIsCys">
+    <img src="https://img.shields.io/badge/OpenReview-PDF-green" alt="PDF">
+  </a>
+</div>
+
 Codebase for implementing Private & Non-Private Finetuning adaptations for Vision AutoRegressive Model.
 
 ## Setup Environment
@@ -71,4 +77,18 @@ for ft in var_fft var_lora var_lntuning; do
         +trainer=var_profiler \
         +dataset=flowers102 +wandb.disable=True
 done
+```
+
+## Cite Our Work
+
+If you use this code or ideas from our paper, please cite:
+```bibtex
+@inproceedings{
+shaikh2025implementing,
+title={Implementing Adaptations for Vision AutoRegressive Model},
+author={Kaif Shaikh and Antoni Kowalczuk and Franziska Boenisch and Adam Dziedzic},
+booktitle={Data in Generative Models - The Bad, the Ugly, and the Greats},
+year={2025},
+url={https://openreview.net/forum?id=YsTotIsCys}
+}
 ```
